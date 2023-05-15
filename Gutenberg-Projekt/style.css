@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto');
+
+p{
+  font-family: "Noto Serif";
+  font-size: 13px;
+}
+
+h2{
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+h1{
+  font-family: "Roboto";
+  font-size: 26px;
+}
+
+body{
+  margin: 25px auto;
+  max-width: min(90%, 1000px);
+}
+
+ul {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
+
+li{
+  list-style-type: none;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+a{
+  text-decoration: none;
+  color: #afb0bc;
+}
+
+a:hover{
+  color: #666;
+}
